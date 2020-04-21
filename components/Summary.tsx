@@ -28,36 +28,36 @@ const chartConfig = {
 
 const data = [
   {
-    name: "Seoul",
-    population: 21500000,
+    name: "Groceries",
+    population: 150,
     color: "rgba(131, 167, 234, 1)",
     legendFontColor: "#7F7F7F",
     legendFontSize: 15
   },
   {
-    name: "Toronto",
-    population: 2800000,
+    name: "Snacks",
+    population: 30,
     color: "#F00",
     legendFontColor: "#7F7F7F",
     legendFontSize: 15
   },
   {
-    name: "Beijing",
-    population: 527612,
+    name: "Eating out",
+    population: 40,
     color: "red",
     legendFontColor: "#7F7F7F",
     legendFontSize: 15
   },
   {
-    name: "New York",
-    population: 8538000,
+    name: "Household",
+    population: 50,
     color: "#ffffff",
     legendFontColor: "#7F7F7F",
     legendFontSize: 15
   },
   {
-    name: "Moscow",
-    population: 11920000,
+    name: "Breakfast",
+    population: 10,
     color: "rgb(0, 0, 255)",
     legendFontColor: "#7F7F7F",
     legendFontSize: 15

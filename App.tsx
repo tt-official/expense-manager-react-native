@@ -43,7 +43,7 @@ const App = () => {
             component={Summary}
             options={{title: 'Expense Manager'}}
           />
-           <Drawer.Screen name="Profile" component={Summary} />
+           <Drawer.Screen name="Add expenses" component={Summary} />
         </Drawer.Navigator>
       </NavigationContainer>
   );
