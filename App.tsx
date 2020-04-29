@@ -6,6 +6,8 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 
 import { Button, DrawerLayoutAndroid, Text, StyleSheet, View } from 'react-native';
 import Summary from './components/Summary';
+import NewExpense from './components/NewExpense';
+import Login from './components/LoginPage';
 
 declare const global: {HermesInternal: null | {}};
 const Stack = createStackNavigator();
@@ -35,7 +37,6 @@ const styles = StyleSheet.create({
   );
 const App = () => {
   return (
-
     <NavigationContainer>
         <Drawer.Navigator initialRouteName="Home">
           <Drawer.Screen
@@ -43,7 +44,7 @@ const App = () => {
             component={Summary}
             options={{title: 'Expense Manager'}}
           />
-           <Drawer.Screen name="Add expenses" component={Summary} />
+         <Drawer.Screen name="Log new expense" component={NewExpense} />
         </Drawer.Navigator>
       </NavigationContainer>
   );
