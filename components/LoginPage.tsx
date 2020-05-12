@@ -5,7 +5,8 @@ import {
   StyleSheet,
   Text,
   TouchableHighlight,
-  View
+  View,
+  TextInput
 } from "react-native";
 
 
@@ -28,8 +29,8 @@ export default function PizzaTranslator() {
                 <Text style={styles.modalText}>Enter your name</Text>
                 <TextInput
                       style={{ height: 40, borderColor: 'gray', borderWidth: 1 }}
-                      onChangeText={text => onChangeText(text)}
-                      value={value}
+                      onChangeText={(text: string) => setText(text)}
+                      value={text}
                     />
                 <TouchableHighlight
                   style={{ ...styles.openButton, backgroundColor: "#2196F3" }}
